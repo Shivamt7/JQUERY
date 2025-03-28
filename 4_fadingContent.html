@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fading Content</title>
+    <script src="./jquery.js"></script>
+    <style>
+        p {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, atque ipsa quos, necessitatibus facere tempora incidunt reiciendis a eligendi fuga veniam labore dignissimos quod odit repudiandae, ipsam dolor minus soluta!</p>
+    <button>FadeContent</button>
+
+    <script>
+        $('button').click(function(){
+            $('p').fadeIn()
+        })
+    </script>
+</body>
+</html>

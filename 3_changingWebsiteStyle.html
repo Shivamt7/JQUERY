@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing Website Style</title>
+    <script src="./jquery.js"></script>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .greenCircle {
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .square {
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="greenCircle"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <!-- <script>
+        $("div").click(function(){
+            $("div").css("backgroundColor", "red")
+            $("div").css("width", "300px")
+        })
+    </script> -->
+
+    <script>
+        $('.greenCircle, .square').click(function(){
+            $(this).css('display', 'none')
+        })
+    </script>
+</body>
+</html>

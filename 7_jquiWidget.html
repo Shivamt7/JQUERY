@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUI Widget</title>
+    <script src="./jquery.js"></script>
+    <script src="./jquery-ui-1.14.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="./jquery-ui-1.14.1/jquery-ui.css">
+</head>
+
+<body>
+
+    <div>
+        <label for="datePicker">Date:</label>
+        <input type="text" id="datePicker" name="datePicker">
+    </div>
+
+    <div class="accordion">
+        <h3>Section 1</h3>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio inventore exercitationem, molestias
+                aperiam fuga vero laboriosam quas dignissimos. Illo nobis eaque corporis minus soluta consectetur
+                dolorum ipsam est maxime labore. Necessitatibus sapiente accusamus corrupti quia ipsa omnis officia,
+                fuga accusantium? Et perferendis maxime dignissimos fugit velit est itaque quasi repudiandae?</p>
+        </div>
+
+        <h3>Section 2</h3>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis facere perferendis accusamus laboriosam
+                perspiciatis dolorem, deserunt quod neque dolores quam maiores ullam, error quisquam sint consequatur
+                harum molestiae aliquid fuga architecto quo reprehenderit! Nemo magni commodi perspiciatis, facilis iure
+                at sit non a perferendis nesciunt culpa, officia delectus sint officiis!</p>
+        </div>
+
+        <h3>Section 3</h3>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae aspernatur ipsum vero,
+                exercitationem enim fugiat laborum excepturi libero omnis. Doloribus odio quis, reprehenderit omnis
+                fuga, similique atque veniam expedita suscipit facere minus perferendis officiis magni blanditiis
+                tenetur quia commodi libero dolores dolorem nobis aspernatur. Eum dolorum ex cum vitae?
+            </p>
+        </div>
+    </div>
+
+
+    <script>
+        $('.accordion').accordion();
+        $('#datePicker').datepicker();
+
+    </script>
+</body>
+
+</html>
